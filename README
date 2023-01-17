@@ -1,0 +1,32 @@
+This program will ask the user a series of yes/no or numeric questions about
+their upcoming visit to New York City.  Based upon their responses, the user
+will be advised on the most economical fare options.
+
+Assumptions:
+Users 65 or older, or users with disabilities can apply for a 50% off reduced
+fare card.  Assuming that they have the card, all fares/fees are 50% off.
+
+If users are only purchasing a single trip, then they will purchase a single
+ride card, and we skip the rest of the calculations.
+
+Users who do not have a plastic MetroCard will need to purchase one for $1.00.
+
+Users who take the Express Bus Plus service 10 or more times a week should
+purchase unlimited express.
+
+Users who plan to take 12 or more trips in a given week or 47 trips in a 30
+day period should purchase unlimited trip passes.
+
+Users who take 1 - 3 trips on the JFK AirTrain should purchase individual
+trips.  When taking 4-10 trips a month, the 10-Trip pass is best.  If taking
+12+ trips a month, the 30 day unlimited ride pass is best.
+
+Possible ideas for improvement:
+1. Ask if traveling with children.  If yes, mention that up to 3 children
+   under 44 inches tall can ride for free with a fare-paying adult.
+2. Mention OMNY option, where you pay with contactless debit/credit card.
+   You pay $2.75 per trip, but after 12 trips, additional trips are free.
+3. Ask if student and mention student MetroCards are given out by schools.
+   They allow 3 rides each school day from 5:30AM to 8:30PM.
+4. Mention AAR MetroCard, which gives Paratransit customers four free
+   trips per day.
